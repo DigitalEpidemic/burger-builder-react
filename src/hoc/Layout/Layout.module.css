@@ -1,0 +1,13 @@
+.Content {
+    /* margin-top: 55px; */
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+@media (max-height: 485px) {
+    .Content {
+        display: block;
+        margin-top: 55px;
+    }
+}
