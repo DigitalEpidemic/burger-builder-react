@@ -1,22 +1,23 @@
 .NavigationItem {
-    margin: 10px 0;
+    /* padding: 10px 10px; */
     box-sizing: border-box;
     display: block;
     width: 100%;
 }
 
 .NavigationItem a {
-    color: #8f5c2c;
+    color: #fff;
     text-decoration: none;
     width: 100%;
     box-sizing: border-box;
     display: block;
+    padding: 10px 10px;
 }
 
-.NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a.active {
-    color: #40a4c8;
+    background-color: #924e0d;
+    color: #f5d940;
 }
 
 @media (min-width: 500px) {

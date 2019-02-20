@@ -8,6 +8,14 @@
     height: 100%;
 }
 
+.NavigationItems li:hover,
+.NavigationItems a:hover,
+.NavigationItems li:active,
+.NavigationItems li.active {
+    /* color: #49bee9; */
+    background-color: #8f5c2c !important;
+}
+
 @media (min-width: 500px) {
     .NavigationItems {
         flex-flow: row;

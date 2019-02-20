@@ -6,10 +6,11 @@
     left: 0;
     top: 0;
     z-index: 200;
-    background-color: white;
-    padding: 32px 16px;
+    background-color: #df7834;
+    /* padding: 32px 16px; */
     box-sizing: border-box;
     transition: transform 0.3s ease-out;
+    box-shadow: 5px 0px 25px rgba(0, 0, 0, 0.55);
 }
 
 @media (min-width: 500px) {
@@ -28,5 +29,6 @@
 
 .Logo {
     height: 11%;
-    margin-bottom: 32px;
+    background-color: #4b2808;
+    padding: 10px;
 }
