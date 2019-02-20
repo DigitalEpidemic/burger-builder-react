@@ -6,10 +6,6 @@ import Button from '../../UI/Button/Button';
 // This could be a functional component
 // Does not need to be a class (Used to check unnecessary rendering)
 class OrderSummary extends Component {
-    componentWillUpdate() {
-        console.log('[OrderSummary] WillUpdate');
-    }
-
     render(){
         const ingredientSummary = Object.keys(this.props.ingredients)
             .map(igKey => {
