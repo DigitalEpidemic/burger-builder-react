@@ -121,5 +121,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "terser": "^3.14.1"
   }
 }
