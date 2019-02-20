@@ -115,12 +115,13 @@ class Auth extends Component {
                 {authRedirect}
                 {errorMessage}
                 <form onSubmit={this.submitHandler}>
+                    <h4>{!this.state.signUpMode ? 'Sign In To Your Account' : 'Create An Account'}</h4>
                     {form}
                     <Button btnType="Success">SUBMIT</Button>
                 </form>
                 <Button
                     clicked={this.switchAuthModeHandler}
-                    btnType="Danger">GO TO {this.state.signUpMode ? 'SIGN IN' : 'SIGN UP'}</Button>
+                    btnType="Danger">{this.state.signUpMode ? 'EXISTING USER? LOGIN HERE' : 'NEW USER? SIGN UP HERE'}</Button>
             </div>
         );
     }
