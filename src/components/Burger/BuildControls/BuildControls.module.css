@@ -1,12 +1,26 @@
 .BuildControls {
     width: 100%;
+    height: 42%;
     background-color: #CF8F2E;
     display: flex;
     flex-flow: column;
     align-items: center;
     box-shadow: 0 2px 1px #ccc;
     margin: auto;
+    margin-bottom: 0;
     padding: 15.5px 0;
+}
+
+@media (max-width: 500px) {
+    .BuildControls {
+        height: 55%;
+    }
+}
+
+@media (max-height: 688px) {
+    .BuildControls {
+        height: 100%;
+    }
 }
 
 .OrderButton {
@@ -19,6 +33,7 @@
     font-size: 1.2em;
     padding: 15px 30px;
     box-shadow: 2px 2px 2px #966909;
+    flex-shrink: 0;
 }
 
 .OrderButton:hover, .OrderButton:active {

@@ -16,12 +16,13 @@ const burger = (props) => {
         if (transformedIngredients.length === 0) {
             transformedIngredients = <p>Please start adding ingredients!</p>;
         }
-
     return(
-        <div className={classes.Burger}>
-            <BurgerIngredient type="bread-top"/>
-            {transformedIngredients}
-            <BurgerIngredient type="bread-bottom"/>
+        <div className={classes.BurgerParent}>
+            <div style={{marginTop: props.margin ? '60px' : '0'}} className={classes.Burger}>
+                <BurgerIngredient type="bread-top"/>
+                {transformedIngredients}
+                <BurgerIngredient type="bread-bottom"/>
+            </div>
         </div>
     );
 };

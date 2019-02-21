@@ -5,6 +5,7 @@ import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import * as actions from '../../store/actions/index';
 import { connect } from 'react-redux';
 import Spinner from '../../components/UI/Spinner/Spinner';
+import classes from './Orders.module.css';
 
 class Orders extends Component {
     componentDidMount() {
@@ -22,8 +23,10 @@ class Orders extends Component {
             ));
         }
         return(
-            <div style={{marginTop: '55px'}}>
-                {orders}
+            <div className={classes.OrdersParent}>
+                <div className={classes.Orders}>
+                    {orders}
+                </div>
             </div>
         );
     }

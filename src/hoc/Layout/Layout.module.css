@@ -3,11 +3,11 @@
     display: flex;
     flex-flow: column;
     height: 100vh;
+    overflow: hidden;
 }
 
-@media (max-height: 485px) {
+@media (max-height: 688px) {
     .Content {
-        display: block;
-        margin-top: 55px;
+        display: flex;
     }
 }

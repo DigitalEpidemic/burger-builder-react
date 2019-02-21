@@ -1,0 +1,15 @@
+.Orders {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 17px;
+    box-sizing: content-box;
+}
+
+.OrdersParent {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
