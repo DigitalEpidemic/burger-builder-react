@@ -1,0 +1,9 @@
+.Content {
+    margin-top: 50px;
+}
+    
+@media (min-width: 500px) {
+    .Content {
+        margin-top: 8vh;
+    }
+}
