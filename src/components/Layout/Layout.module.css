@@ -1,9 +1,11 @@
 .Content {
     margin-top: 50px;
+    overflow-y: visible !important;
 }
     
 @media (min-width: 500px) {
     .Content {
         margin-top: 8vh;
+        overflow-y: visible !important;
     }
 }

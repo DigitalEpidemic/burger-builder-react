@@ -44,7 +44,7 @@ class BuildControl extends Component {
         <div className={classes.Label}>
           {this.props.label}
           <br />
-          <span className={classes.ControlPrice}>{ingredientPrice} </span>
+          <span className={classes.ControlPrice}>${ingredientPrice.toFixed(2)}</span>
         </div>
         <button className={classes.Less} onClick={this.props.removed} disabled={this.props.disabled}>
           -

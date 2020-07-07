@@ -5,10 +5,10 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    box-shadow: 0 2px 1px #ccc;
-    margin: auto;
+    /* box-shadow: 0 2px 1px #ccc; */
+    /* margin: auto; */
     margin-bottom: 0;
-    padding: 15.5px 0;
+    /* padding: 15.5px 0; */
     /* width: 100%;
     background-color: #CF8F2E;
     display: flex;
@@ -35,9 +35,7 @@
 .totalPrice {
     color: #222;
     font-size: 1.2em;
-    display: inline;
     width: 290px;
-    display: inline;
 }
 
 .totalPrice p {

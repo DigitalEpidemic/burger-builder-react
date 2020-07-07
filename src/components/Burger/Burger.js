@@ -19,7 +19,7 @@ const burger = (props) => {
   }
   return (
     <div className={classes.BurgerParent}>
-      <div style={{ marginTop: props.margin ? "60px" : "0" }} className={classes.Burger}>
+      <div style={{ marginTop: props.margin ? "40px" : "0" }} className={classes.Burger}>
         <BurgerIngredient type="bread-top" />
         {transformedIngredients}
         <BurgerIngredient type="bread-bottom" />

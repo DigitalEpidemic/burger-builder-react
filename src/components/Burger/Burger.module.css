@@ -2,20 +2,20 @@
     width: 300px;
     margin: auto;
     height: 275px;
-    /* overflow: scroll; */
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .BurgerParent {
-    padding-top: 50px;
+    padding-top: 15px;
     background-image: url("../../../src/assets/images/background.jpg");
     background-size: cover;
-    height: 315px;
+    /* height: 315px; */
 }
 
 @media (min-width: 500px) and (min-height: 400px) {
@@ -30,17 +30,17 @@
         padding-top: 8vh;
         padding-bottom: 5.4vh;
         width: 350px;
-        height: 25vh;
+        height: 30vh;
     }
-    .BurgerParent {
+    /* .BurgerParent {
         height: 45vh;
-    }
+    } */
 }
 
 @media (min-width: 1000px) and (min-height: 700px) {
     .Burger {
         width: 400px;
-        height: 25vh;
+        height: 30vh;
     }
 }
 

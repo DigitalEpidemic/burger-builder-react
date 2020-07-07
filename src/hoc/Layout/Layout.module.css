@@ -3,7 +3,7 @@
     display: flex;
     flex-flow: column;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 @media (max-height: 688px) {
